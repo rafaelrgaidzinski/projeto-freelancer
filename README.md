@@ -30,11 +30,15 @@ Os seguintes Controllers foram implementados:
 Para executar este projeto, basta seguir os seguintes passos:
 
 1- Abrir o terminal de comando e navegar até o diretório onde deseja salvar o projeto 
+
 2- Utilizar o seguinte comando no terminal para copiar o projeto para o seu repositório local: 
    git clone https://github.com/rafaelrgaidzinski/projeto-freelancer.git
+
 3- Abrir a pasta do projeto utilizando o IntelliJ ou outro programa
+
 4- No arquivo application.properties alterar o datasource do H2 Database para um repositório local:
    pring.datasource.url=jdbc:h2:file:C:/Users/rafae/freelancer
+
 5- Agora é só rodar o projeto e utilizar o Postman ou Insomnia para realizar as requisições HTTP
 
 
