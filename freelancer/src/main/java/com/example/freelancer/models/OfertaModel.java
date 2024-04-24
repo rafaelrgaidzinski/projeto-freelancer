@@ -18,7 +18,7 @@ public class OfertaModel implements Serializable {
     @Column(nullable = false, length = 30)
     private String tituloVaga;
     @Column(nullable = false)
-    private UUID idEstabeleimento;
+    private String idEstabelecimento;
     @Column(nullable = false, length = 300)
     private String descricaoVaga;
     @Column(nullable = false)
@@ -44,12 +44,12 @@ public class OfertaModel implements Serializable {
         this.tituloVaga = tituloVaga;
     }
 
-    public UUID getIdEstabeleimento() {
-        return idEstabeleimento;
+    public String getIdEstabelecimento() {
+        return idEstabelecimento;
     }
 
-    public void setIdEstabeleimento(UUID idEstabeleimento) {
-        this.idEstabeleimento = idEstabeleimento;
+    public void setIdEstabelecimento(String idEstabeleimento) {
+        this.idEstabelecimento = idEstabeleimento;
     }
 
     public String getDescricaoVaga() {

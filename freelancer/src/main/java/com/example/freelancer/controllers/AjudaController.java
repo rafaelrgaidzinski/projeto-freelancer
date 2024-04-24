@@ -21,6 +21,7 @@ public class AjudaController {
         Map<String, String> informacoesProjeto = new HashMap<>();
         informacoesProjeto.put("estudante", "Rafael Ronsoni Gaidzinski");
         informacoesProjeto.put("projeto", "Aplicativo de vagas para freelancers");
+
         return ResponseEntity.status(HttpStatus.OK).body(informacoesProjeto);
     }
 
